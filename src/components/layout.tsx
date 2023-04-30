@@ -10,7 +10,7 @@ export default function Layout({ children }: Children) {
     <>
       <Navbar />
       <main
-        className={`mt-[56px] flex flex-auto items-center justify-center bg-gray-900 p-24 ${inter.className}`}
+        className={`mt-[56px] flex flex-auto items-center justify-center bg-gray-900 ${inter.className}`}
       >
         {children}
       </main>
