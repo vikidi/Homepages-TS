@@ -15,7 +15,7 @@ export default function MobileNavbar({
 
   return (
     <div className="flex h-full w-full flex-col justify-start md:hidden">
-      <div className="flex justify-end bg-slate-900/80 shadow-md backdrop-blur-md">
+      <div className="flex justify-end bg-slate-800 shadow-md backdrop-blur-md">
         <button
           className="flex flex-col items-center justify-center px-10 py-4"
           onClick={() => setNavOpen(!navOpen)}
@@ -47,7 +47,7 @@ export default function MobileNavbar({
         }}
         className="flex transform justify-end transition"
       >
-        <ul className="flex w-4/5 flex-col justify-start bg-slate-900/80 pt-2 shadow-md backdrop-blur-md sm:w-3/5">
+        <ul className="flex w-4/5 flex-col justify-start bg-slate-800/70 pt-2 shadow-md backdrop-blur-md sm:w-3/5">
           {links.map((link: NavLink) => (
             <li
               key={link.text}

@@ -3,7 +3,7 @@ import Link from "next/link";
 
 export default function DesktopNavbar({ links }: { links: NavLinks }) {
   return (
-    <div className="flex w-full justify-center bg-slate-900/80 shadow-md backdrop-blur-md max-md:hidden">
+    <div className="flex w-full justify-center bg-slate-800 shadow-md backdrop-blur-md max-md:hidden">
       <ul className="flex w-full flex-row justify-center">
         {links.map((link: NavLink) => (
           <li

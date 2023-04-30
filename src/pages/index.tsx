@@ -31,7 +31,11 @@ export default function Home() {
   return (
     <div>
       <h1>
-        <span style={{ whiteSpace: "pre" }} ref={el} />
+        <span
+          className="text-zinc-300"
+          style={{ whiteSpace: "pre" }}
+          ref={el}
+        />
       </h1>
     </div>
   );
