@@ -14,4 +14,5 @@ export interface NavLinks extends Array<NavLink> {}
 export interface LogoProps {
   padding?: string;
   borderColor?: string;
+  border?: boolean;
 }
