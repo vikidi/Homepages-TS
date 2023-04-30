@@ -4,7 +4,7 @@ export default function Projects() {
   return (
     <>
       <Head>
-        <title>V.S - Projects</title>
+        <title>Projects : {`<>{ V.S }</>`}</title>
       </Head>
       <div>
         <h1 className="text-zinc-300">PROJECTS</h1>

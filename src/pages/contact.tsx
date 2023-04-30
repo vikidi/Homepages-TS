@@ -4,7 +4,7 @@ export default function Contact() {
   return (
     <>
       <Head>
-        <title>V.S - Contact</title>
+        <title>Contact : {`<>{ V.S }</>`}</title>
       </Head>
       <div>
         <h1 className="text-zinc-300">CONTACT</h1>

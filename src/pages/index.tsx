@@ -8,17 +8,17 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>V.S - Home</title>
+        <title>Home : {`<>{ V.S }</>`}</title>
       </Head>
       <div className="flex h-full w-full flex-col">
-        <div className="flex w-full flex-wrap justify-center">
+        <div className="flex w-full flex-wrap justify-center max-lg:mt-5">
           <h1
-            className="m-10 text-3xl text-zinc-300"
+            className="m-5 text-xl text-zinc-300 sm:text-2xl lg:m-20 lg:text-3xl"
             style={{ alignSelf: "center" }}
           >
-            <FullLogo />
+            <FullLogo padding="p-4 sm:p-6 lg:p-10" />
           </h1>
-          <div className="relative m-10 h-[350px] w-[350px]">
+          <div className="relative m-5 h-[200px] w-[200px] sm:m-10 sm:h-[250px] sm:w-[250px] lg:h-[350px] lg:w-[350px]">
             <Image
               alt="Picture of page author"
               src={profilePic}
@@ -39,7 +39,7 @@ export default function Home() {
                   "This is my <b><u>SHOW OFF</u></b>",
                   "This is my <b><u>THEN, NOW</u></b> and <b><u>FUTURE</u></b>",
                   "This is my <b><u>JOURNEY</u></b>",
-                  "This is my <b><u>LIFE</u></b>^2000 <i>and it's now or never</i>",
+                  "This is my <b><u>LIFE</u></b>^2000 <i>and it's now or never...</i>",
                 ],
                 typeSpeed: 100,
                 backSpeed: 50,
