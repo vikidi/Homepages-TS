@@ -47,6 +47,10 @@ export default function MobileNavbar({
         }}
         className="flex transform justify-end transition"
       >
+        <div
+          className="w-1/5 backdrop-blur-[2px] sm:w-2/5"
+          onClick={() => setNavOpen(false)}
+        ></div>
         <ul className="flex w-4/5 flex-col justify-start bg-slate-800/70 pt-2 shadow-md backdrop-blur-md sm:w-3/5">
           {links.map((link: NavLink) => (
             <li
