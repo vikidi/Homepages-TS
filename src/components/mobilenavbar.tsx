@@ -1,5 +1,6 @@
 import { NavLink, NavLinks } from "@/types";
 import Link from "next/link";
+import { Logo } from "./logo";
 
 export default function MobileNavbar({
   links,
@@ -14,8 +15,11 @@ export default function MobileNavbar({
     "h-1 w-6 rounded-full bg-zinc-300 transition ease transform duration-300";
 
   return (
-    <div className="flex h-full w-full flex-col justify-start md:hidden">
+    <div className="flex h-full w-full flex-col md:hidden">
       <div className="flex justify-end bg-slate-800 shadow-md backdrop-blur-md">
+        <div className="absolute bottom-0 left-0 right-0 top-0 ml-8 flex items-center text-zinc-300">
+          <Logo padding="p-0" border={false} />
+        </div>
         <button
           className="flex flex-col items-center justify-center px-10 py-4"
           onClick={() => setNavOpen(!navOpen)}
