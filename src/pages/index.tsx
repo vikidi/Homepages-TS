@@ -8,7 +8,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Home : {`<>{ V.S }</>`}</title>
+        <title>{`Home : <>{ V.S }</>`}</title>
       </Head>
       <div className="flex h-full w-full flex-col">
         <div className="flex w-full flex-wrap justify-center max-lg:mt-5">
@@ -24,6 +24,8 @@ export default function Home() {
               src={profilePic}
               fill={true}
               className="rounded-full"
+              placeholder="blur"
+              priority
             />
           </div>
         </div>
