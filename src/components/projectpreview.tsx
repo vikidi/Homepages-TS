@@ -34,6 +34,7 @@ export default function ProjectPreview(props: ProjectPreviewProps) {
             <a
               href={props.deploymentUrl}
               target="_blank"
+              rel="noreferrer noopener"
               className="pb-2 text-sm text-blue-600 underline decoration-transparent transition duration-300 ease-in-out visited:text-purple-600 hover:text-blue-800 hover:decoration-inherit"
             >
               {props.deploymentUrlShort}
@@ -55,6 +56,7 @@ export default function ProjectPreview(props: ProjectPreviewProps) {
           <a
             href={props.sourceUrl}
             target="_blank"
+            rel="noreferrer noopener"
             className="pb-2 text-sm text-blue-600 underline decoration-transparent transition duration-300 ease-in-out visited:text-purple-600 hover:text-blue-800 hover:decoration-inherit"
           >
             {props.sourceUrlShort}
