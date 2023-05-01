@@ -19,10 +19,13 @@ export interface LogoProps {
 }
 
 export interface ProjectPreviewProps {
-  url: string;
   name: string;
+  secondaryTitle: string;
   techStack: string[];
   image: StaticImageData;
-  desc: string;
-  sourceUrl: string;
+  desc: string[];
+  sourceUrl?: string;
+  sourceUrlShort?: string;
+  deploymentUrl?: string;
+  deploymentUrlShort?: string;
 }
