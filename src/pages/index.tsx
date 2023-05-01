@@ -32,23 +32,21 @@ export default function Home() {
         <div className="flex w-full justify-center py-10">
           <h2 className="text-xl text-zinc-300" style={{ whiteSpace: "pre" }}>
             <Typer
-              typedOptions={{
-                strings: [
-                  "This is my <b><u>HOMEPAGE</u></b>",
-                  "This is my <b><u>PORTFOLIO</u></b>",
-                  "This is my <b><u>RANDOM PROJECT</u></b>",
-                  "This is my <b><u>LEARNING OPPORTUNITY</u></b>",
-                  "This is my <b><u>SHOW OFF</u></b>",
-                  "This is my <b><u>THEN, NOW</u></b> and <b><u>FUTURE</u></b>",
-                  "This is my <b><u>JOURNEY</u></b>",
-                  "This is my <b><u>LIFE</u></b>^2000 <i>and it's now or never...</i>",
-                ],
-                typeSpeed: 100,
-                backSpeed: 50,
-                smartBackspace: true,
-                loop: true,
-                backDelay: 1000,
-              }}
+              strings={[
+                "This is my <b><u>HOMEPAGE</u></b>",
+                "This is my <b><u>PORTFOLIO</u></b>",
+                "This is my <b><u>RANDOM PROJECT</u></b>",
+                "This is my <b><u>LEARNING OPPORTUNITY</u></b>",
+                "This is my <b><u>SHOW OFF</u></b>",
+                "This is my <b><u>THEN, NOW</u></b> and <b><u>FUTURE</u></b>",
+                "This is my <b><u>JOURNEY</u></b>",
+                "This is my <b><u>LIFE</u></b>^2000 <i>and it's now or never...</i>",
+              ]}
+              typeSpeed={100}
+              backSpeed={50}
+              smartBackspace={true}
+              loop={true}
+              backDelay={1000}
             />
           </h2>
         </div>

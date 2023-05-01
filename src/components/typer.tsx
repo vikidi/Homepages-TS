@@ -1,11 +1,7 @@
 import { useEffect, useRef } from "react";
 import Typed, { TypedOptions } from "typed.js";
 
-export default function Typer({
-  typedOptions,
-}: {
-  typedOptions: TypedOptions;
-}) {
+export default function Typer(typedOptions: TypedOptions) {
   const el = useRef(null);
 
   useEffect(() => {
