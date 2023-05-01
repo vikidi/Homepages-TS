@@ -3,7 +3,7 @@ import Image from "next/image";
 
 export default function ProjectPreview(props: ProjectPreviewProps) {
   return (
-    <div className="px-4 py-3 md:px-8 md:py-6 2xl:px-12">
+    <div className="p-4 md:px-8 md:py-6 2xl:px-12">
       <div className="flex flex-col rounded-lg border-[1px] border-green-300/70 text-zinc-300">
         <div className="relative h-[150px] w-full overflow-hidden lg:h-[175px] 2xl:h-[200px]">
           <Image
@@ -25,7 +25,7 @@ export default function ProjectPreview(props: ProjectPreviewProps) {
           style={{ alignSelf: "center" }}
         />
         <div className="py-2">
-          {props.desc.map((i) => (
+          {props.desc.map((i: string) => (
             <h5 key={i} className="md:text-md p-1 px-5 text-left text-sm">
               {i}
             </h5>
@@ -45,7 +45,7 @@ export default function ProjectPreview(props: ProjectPreviewProps) {
           style={{ alignSelf: "center" }}
         />
         <div className="md:text-md flex flex-wrap justify-evenly p-2 px-10 text-sm">
-          {props.techStack.map((tech) => (
+          {props.techStack.map((tech: string) => (
             <h5 key={tech} className="px-4">
               {tech}
             </h5>
