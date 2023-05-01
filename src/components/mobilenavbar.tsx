@@ -21,7 +21,7 @@ export default function MobileNavbar({
           <Logo padding="p-0" border={false} />
         </div>
         <button
-          className="flex flex-col items-center justify-center px-10 py-4"
+          className="z-10 flex flex-col items-center justify-center px-10 py-4"
           onClick={() => setNavOpen(!navOpen)}
         >
           <div
@@ -55,11 +55,11 @@ export default function MobileNavbar({
           className="w-1/5 backdrop-blur-[2px] sm:w-2/5"
           onClick={() => setNavOpen(false)}
         ></div>
-        <ul className="flex w-4/5 flex-col justify-start bg-slate-800/70 pt-2 shadow-md backdrop-blur-md sm:w-3/5">
+        <ul className="flex w-4/5 flex-col justify-start bg-slate-800/80 pt-2 shadow-md backdrop-blur-md sm:w-3/5">
           {links.map((link: NavLink) => (
             <li
               key={link.text}
-              className="ml-4 flex w-full justify-start border-t-2 border-green-300/30 p-4 text-zinc-300 last:border-b-2 hover:text-zinc-400"
+              className="ml-4 flex w-full justify-start border-t-[1px] border-green-300/30 p-4 text-zinc-300 last:border-b-[1px] hover:text-zinc-400"
             >
               <Link
                 href={link.path}
