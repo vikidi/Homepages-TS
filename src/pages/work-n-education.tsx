@@ -1,4 +1,5 @@
 import { WorkIcon, SchoolIcon, StarIcon } from "@/components/icons";
+import useBreakpoint from "@/hooks/useBreakpoint";
 import Head from "next/head";
 import {
   VerticalTimeline,
@@ -7,6 +8,8 @@ import {
 import "react-vertical-timeline-component/style.min.css";
 
 export default function WorkAndEducation() {
+  const breakpoint = useBreakpoint();
+
   return (
     <>
       <Head>
@@ -16,7 +19,10 @@ export default function WorkAndEducation() {
         <h1 className="m-5 text-center text-2xl font-bold text-zinc-300 sm:m-10 sm:text-3xl">
           Work & Education
         </h1>
-        <VerticalTimeline lineColor="rgb(134 239 172 / 0.7)">
+        <VerticalTimeline
+          lineColor="rgb(134 239 172 / 0.7)"
+          animate={breakpoint >= 1170}
+        >
           <VerticalTimelineElement
             date="2022 - present"
             iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
