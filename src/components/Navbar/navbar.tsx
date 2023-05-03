@@ -1,7 +1,7 @@
 import { NavLinks } from "@/types";
 import { useState } from "react";
-import DesktopNavbar from "./desktopnavbar";
-import MobileNavbar from "./mobilenavbar";
+import DesktopNavbar from "./desktopNavbar";
+import MobileNavbar from "./mobileNavbar";
 
 const linkList: NavLinks = [
   { text: "Home", path: "/" },
