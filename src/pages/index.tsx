@@ -22,7 +22,6 @@ export default function Home() {
             <Image
               alt="Picture of page author"
               src={profilePic}
-              fill={true}
               className="rounded-full"
               placeholder="blur"
               priority
