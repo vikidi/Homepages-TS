@@ -6,6 +6,7 @@ export default function Footer() {
           href="https://www.instagram.com/vikidii"
           target="_blank"
           className="px-4 py-2 text-zinc-300 hover:text-zinc-400"
+          aria-label="Personal Instagram"
         >
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -19,6 +20,7 @@ export default function Footer() {
           href="https://www.github.com/vikidi"
           target="_blank"
           className="px-4 py-2 text-zinc-300 hover:text-zinc-400"
+          aria-label="Personal Github"
         >
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -32,6 +34,7 @@ export default function Footer() {
           href="https://www.gitlab.com/vikidii"
           target="_blank"
           className="px-4 py-2 text-zinc-300 hover:text-zinc-400"
+          aria-label="Personal Gitlab"
         >
           <svg
             xmlns="http://www.w3.org/2000/svg"
