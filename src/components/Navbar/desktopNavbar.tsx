@@ -20,7 +20,7 @@ export default function DesktopNavbar({ links }: { links: NavLinks }) {
               </Link>
             ) : (
               <Link
-                className="after:content[''] m-2 after:absolute after:bottom-[27%] after:left-0 after:h-2/5 after:w-[1px] after:bg-white/30 lg:mx-6"
+                className="after:content[''] m-2 after:absolute after:bottom-[28%] after:left-0 after:h-2/5 after:w-[1px] after:bg-white/30 lg:mx-6"
                 href={link.path}
               >
                 {link.text}
