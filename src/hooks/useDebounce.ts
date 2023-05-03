@@ -1,4 +1,4 @@
-const useDebounce = (func: Function, milliseconds?: number) => {
+export const useDebounce = (func: Function, milliseconds?: number) => {
   const time = milliseconds || 400;
   let timer: number;
 
@@ -10,5 +10,3 @@ const useDebounce = (func: Function, milliseconds?: number) => {
     timer = setTimeout(func, time, event);
   };
 };
-
-export default useDebounce;

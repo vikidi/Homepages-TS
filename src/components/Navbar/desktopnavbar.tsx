@@ -1,6 +1,6 @@
 import { NavLink, NavLinks } from "@/types";
 import Link from "next/link";
-import { Logo } from "./logo";
+import { Logo } from "../logo";
 
 export default function DesktopNavbar({ links }: { links: NavLinks }) {
   return (

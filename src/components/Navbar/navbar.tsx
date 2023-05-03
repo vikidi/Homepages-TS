@@ -10,7 +10,7 @@ const linkList: NavLinks = [
   { text: "Contact", path: "/contact" },
 ];
 
-export default function Navbar() {
+export function Navbar() {
   const [navOpen, setNavOpen] = useState(false);
 
   return (

@@ -1,5 +1,5 @@
-import { WorkIcon, SchoolIcon, StarIcon } from "@/components/icons";
-import useBreakpoint from "@/hooks/useBreakpoint";
+import { WorkIcon, SchoolIcon, StarIcon } from "@/Icons";
+import { useBreakpoint } from "@/hooks";
 import Head from "next/head";
 import {
   VerticalTimeline,
