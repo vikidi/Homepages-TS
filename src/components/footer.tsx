@@ -1,6 +1,6 @@
 export default function Footer() {
   return (
-    <footer className="flex flex-col justify-center bg-slate-800 shadow-md backdrop-blur-md">
+    <footer className="flex flex-col justify-center border-t-[1px] border-white bg-slate-800 shadow-md backdrop-blur-md">
       <div className="mt-4 flex justify-center">
         <a
           href="https://www.instagram.com/vikidii"

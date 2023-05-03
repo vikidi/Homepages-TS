@@ -15,7 +15,7 @@ export function Navbar() {
 
   return (
     <header
-      className={`fixed left-0 right-0 top-0 z-10 flex w-full ${
+      className={`fixed left-0 right-0 top-0 z-10 flex w-full border-b-[1px] border-white ${
         navOpen ? "h-full" : ""
       }`}
     >
