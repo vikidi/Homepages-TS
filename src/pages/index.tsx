@@ -1,7 +1,7 @@
 import Typer from "@/components/typer";
 import Head from "next/head";
 import Image from "next/image";
-import profilePic from "../../public/profile-800.webp";
+import profilePic from "public/profile-800.webp";
 import { FullLogo } from "@/components/logo";
 
 export default function Home() {
@@ -22,7 +22,6 @@ export default function Home() {
             <Image
               alt="Picture of page author"
               src={profilePic}
-              fill={true}
               className="rounded-full"
               placeholder="blur"
               priority

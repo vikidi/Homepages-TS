@@ -1,5 +1,5 @@
 import { Inter } from "next/font/google";
-import Navbar from "./navbar";
+import { Navbar } from "./Navbar";
 import Footer from "./footer";
 import { Children } from "@/types";
 
@@ -10,7 +10,7 @@ export default function Layout({ children }: Children) {
     <>
       <Navbar />
       <main
-        className={`mt-[56px] flex flex-auto items-center justify-center bg-gray-900 ${inter.className}`}
+        className={`mt-[60px] flex flex-auto items-center justify-center bg-gray-900 ${inter.className}`}
       >
         {children}
       </main>

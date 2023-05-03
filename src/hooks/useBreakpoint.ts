@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
-import useDebounce from "./useDebounce";
+import { useDebounce } from "./useDebounce";
 
-const useBreakpoint = () => {
+export const useBreakpoint = () => {
   const [breakpoint, setBreakpoint] = useState(1200);
   const resize = useDebounce(() => setBreakpoint(window.innerWidth));
 
@@ -16,5 +16,3 @@ const useBreakpoint = () => {
 
   return breakpoint;
 };
-
-export default useBreakpoint;

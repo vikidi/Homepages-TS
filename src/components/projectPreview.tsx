@@ -5,11 +5,10 @@ export default function ProjectPreview(props: ProjectPreviewProps) {
   return (
     <div className="p-4 md:px-8 md:py-6 2xl:px-12">
       <div className="flex flex-col rounded-lg border-[1px] border-green-300/70 text-zinc-300">
-        <div className="relative h-[150px] w-full overflow-hidden lg:h-[175px] 2xl:h-[200px]">
+        <div className="relative h-[150px] w-full overflow-hidden max-[380px]:h-[125px] max-[320px]:h-[100px] lg:h-[175px] 2xl:h-[200px]">
           <Image
             alt="Image of the project"
             src={props.image}
-            fill={true}
             placeholder="blur"
             className="rounded-t-lg"
             style={{ objectFit: "cover" }}
@@ -19,7 +18,7 @@ export default function ProjectPreview(props: ProjectPreviewProps) {
         <h2 className="pt-2 text-lg font-bold underline sm:text-xl md:text-2xl">
           {props.name}
         </h2>
-        <h3 className="pb-2 text-sm">{props.secondaryTitle}</h3>
+        <h3 className="mx-6 pb-2 text-sm">{props.secondaryTitle}</h3>
         <div
           className="h-[1px] w-4/5 bg-white/20"
           style={{ alignSelf: "center" }}

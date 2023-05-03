@@ -1,8 +1,8 @@
 import Head from "next/head";
-import ProjectPreview from "@/components/projectpreview";
-import homepagePic from "../../public/homepage.png";
-import NmksvPic from "../../public/nmksv-page.png";
-import EsiskuPic from "../../public/esisku-page.png";
+import homepagePic from "public/homepage.png";
+import NmksvPic from "public/nmksv-page.png";
+import EsiskuPic from "public/esisku-page.png";
+import ProjectPreview from "@/components/projectPreview";
 
 export default function Projects() {
   return (
