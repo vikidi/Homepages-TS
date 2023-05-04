@@ -28,18 +28,24 @@ export default function Home() {
             />
           </div>
         </div>
-        <div className="flex w-full justify-center py-10">
-          <h2 className="text-xl text-zinc-300" style={{ whiteSpace: "pre" }}>
+        <div className="flex w-full flex-col justify-center px-5 pb-10 md:pt-10">
+          <p className="text-md text-center text-zinc-300 md:text-xl">
+            This is my
+          </p>
+          <h2
+            className="text-md text-center text-zinc-300 md:text-xl"
+            style={{ whiteSpace: "normal" }}
+          >
             <Typer
               strings={[
-                "This is my <b><u>HOMEPAGE</u></b>",
-                "This is my <b><u>PORTFOLIO</u></b>",
-                "This is my <b><u>RANDOM PROJECT</u></b>",
-                "This is my <b><u>LEARNING OPPORTUNITY</u></b>",
-                "This is my <b><u>SHOW OFF</u></b>",
-                "This is my <b><u>THEN, NOW</u></b> and <b><u>FUTURE</u></b>",
-                "This is my <b><u>JOURNEY</u></b>",
-                "This is my <b><u>LIFE</u></b>^2000 <i>and it's now or never...</i>",
+                "<b><u>HOMEPAGE</u></b>",
+                "<b><u>PORTFOLIO</u></b>",
+                "<b><u>RANDOM PROJECT</u></b>",
+                "<b><u>LEARNING OPPORTUNITY</u></b>",
+                "<b><u>SHOW OFF</u></b>",
+                "<b><u>THEN, NOW</u></b> and <b><u>FUTURE</u></b>",
+                "<b><u>JOURNEY</u></b>",
+                "<b><u>LIFE</u></b>^2000 <i>and it's now or never...</i>",
               ]}
               typeSpeed={100}
               backSpeed={50}
