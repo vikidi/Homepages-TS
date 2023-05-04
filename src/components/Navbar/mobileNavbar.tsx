@@ -60,14 +60,15 @@ export default function MobileNavbar({
           {links.map((link: NavLink) => (
             <li
               key={link.text}
-              className="ml-4 flex w-full justify-start border-b-[1px] border-green-300/30 p-4 text-zinc-300 hover:text-zinc-400"
+              className="ml-4 flex w-full justify-start border-b-[1px] border-green-300/30 p-4 pl-2 text-zinc-300 hover:text-zinc-400"
             >
               <Link
                 href={link.path}
                 onClick={() => setNavOpen(false)}
-                className="w-full"
+                className="flex w-full items-center"
               >
-                {link.text}
+                {link.icon}
+                <p className="ml-1">{link.text}</p>
               </Link>
             </li>
           ))}

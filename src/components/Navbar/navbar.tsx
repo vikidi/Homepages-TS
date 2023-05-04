@@ -1,14 +1,7 @@
-import { NavLinks } from "@/types";
 import { useState } from "react";
 import DesktopNavbar from "./desktopNavbar";
 import MobileNavbar from "./mobileNavbar";
-
-const linkList: NavLinks = [
-  { text: "Home", path: "/" },
-  { text: "Projects", path: "/projects" },
-  { text: "Work & Education", path: "/work-n-education" },
-  { text: "Contact", path: "/contact" },
-];
+import { linkList } from "./linkList";
 
 export function Navbar() {
   const [navOpen, setNavOpen] = useState(false);

@@ -8,6 +8,7 @@ export interface Children {
 export interface NavLink {
   text: string;
   path: string;
+  icon: ReactNode;
 }
 
 export interface NavLinks extends Array<NavLink> {}
