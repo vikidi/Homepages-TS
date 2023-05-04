@@ -4,7 +4,7 @@ import { Logo } from "../logo";
 
 export default function DesktopNavbar({ links }: { links: NavLinks }) {
   return (
-    <div className="flex w-full bg-slate-800 shadow-md backdrop-blur-md max-md:hidden">
+    <div className="flex w-full border-b-[1px] border-white bg-slate-800 shadow-md backdrop-blur-md max-md:hidden">
       <div className="absolute bottom-0 left-0 right-0 top-0 ml-5 flex items-center text-zinc-300 lg:ml-10">
         <Logo padding="p-0" border={false} />
       </div>
