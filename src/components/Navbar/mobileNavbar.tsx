@@ -21,6 +21,7 @@ export default function MobileNavbar({
           <Logo padding="p-0" border={false} />
         </div>
         <button
+          aria-label="Mobile navigation toggle"
           className="z-10 flex flex-col items-center justify-center px-10 py-4"
           onClick={() => setNavOpen(!navOpen)}
         >
