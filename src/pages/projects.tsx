@@ -2,6 +2,8 @@ import Head from "next/head";
 import homepagePic from "public/homepage.png";
 import NmksvPic from "public/nmksv-page.png";
 import EsiskuPic from "public/esisku-page.png";
+import OpenhabPic from "public/openhab.png";
+import ClimateMeterPic from "public/climatemeter.jpg";
 import ProjectPreview from "@/components/projectPreview";
 
 export default function Projects() {
@@ -58,7 +60,7 @@ export default function Projects() {
             deploymentUrlShort="nmksv.org"
           />
         </div>
-        <div className="lg:basis-1/2 xl:basis-1/3">
+        <div className="md:basis-1/2 xl:basis-1/3">
           <ProjectPreview
             name="EsIsku website"
             secondaryTitle="Website for volleyball organization"
@@ -70,6 +72,39 @@ export default function Projects() {
             ]}
             deploymentUrl="https://espoonlahdenisku.fi"
             deploymentUrlShort="espoonlahdenisku.fi"
+          />
+        </div>
+        <div className="md:basis-1/2 xl:basis-1/3">
+          <ProjectPreview
+            name="Home Automation"
+            secondaryTitle="Home automation infrastructure"
+            image={OpenhabPic}
+            techStack={[
+              "Raspberry PI",
+              "Openhabian",
+              "Openhab",
+              "Google Assistant",
+            ]}
+            desc={["TODO"]}
+          />
+        </div>
+        <div className="md:basis-1/2 xl:basis-1/3">
+          <ProjectPreview
+            name="Climate Meter"
+            secondaryTitle="Room temperature & humidity measuring"
+            image={ClimateMeterPic}
+            techStack={[
+              "NodeMCU",
+              "EPS8266",
+              "DHT11",
+              "MQTT",
+              "Mosquitto",
+              "C++",
+              "Arduino IDE",
+            ]}
+            desc={["TODO"]}
+            sourceUrl="https://github.com/vikidi/ArduinoClimateMeter"
+            sourceUrlShort="Github"
           />
         </div>
       </div>
