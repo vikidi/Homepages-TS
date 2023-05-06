@@ -47,6 +47,7 @@ export default function Projects() {
               "NodeJS",
               "Express",
               "CouchDB",
+              "Material UI",
               "Jest",
             ]}
             desc={[
@@ -85,7 +86,11 @@ export default function Projects() {
               "Openhab",
               "Google Assistant",
             ]}
-            desc={["TODO"]}
+            desc={[
+              "Home automation system is a practical project, that is in every day use. I wanted to have it self hosted but with easy-to-use template and good customization.",
+              "Openhab allows for wide integration with different products. My current setup consists of smart lights, plugs and custom projects, such as the Climate Meter.",
+              "Big part of home automation is the automation itself. Google assistant integration allows voice control of components. Best automated tasks that I've created are balcony light that go on/off depending on astral events and coffee maker that goes on when my phone's alarm rings.",
+            ]}
           />
         </div>
         <div className="md:basis-1/2 xl:basis-1/3">
@@ -102,7 +107,10 @@ export default function Projects() {
               "C++",
               "Arduino IDE",
             ]}
-            desc={["TODO"]}
+            desc={[
+              "I had NodeMCU board and DHT11 module lying around at home so I decided to create this meter to be connected to my home automation system. This project itself has no automation in it.",
+              "This meter measures temperature and humidity using given interval and sends the data with date time and status to MQTT queues. The Mosquitto MQTT broker is hosted on the home automation RPi and it connects to the Openhab system providing sent data to it.",
+            ]}
             sourceUrl="https://github.com/vikidi/ArduinoClimateMeter"
             sourceUrlShort="Github"
           />
