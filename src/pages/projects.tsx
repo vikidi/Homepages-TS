@@ -110,6 +110,7 @@ export default function Projects() {
             desc={[
               "I had NodeMCU board and DHT11 module lying around at home so I decided to create this meter to be connected to my home automation system. This project itself has no automation in it.",
               "This meter measures temperature and humidity using given interval and sends the data with date time and status to MQTT queues. The Mosquitto MQTT broker is hosted on the home automation RPi and it connects to the Openhab system providing sent data to it.",
+              "The project would be perfect with some packaging but the raw prototype look of circuit board with all components is also kinda cool although a bit unpractical.",
             ]}
             sourceUrl="https://github.com/vikidi/ArduinoClimateMeter"
             sourceUrlShort="Github"
