@@ -38,14 +38,10 @@ export default function Home() {
           >
             <Typer
               strings={[
-                "<b><u>HOMEPAGE</u></b>",
+                "<b><u>HOME PAGE</u></b>",
                 "<b><u>PORTFOLIO</u></b>",
-                "<b><u>RANDOM PROJECT</u></b>",
-                "<b><u>LEARNING OPPORTUNITY</u></b>",
-                "<b><u>SHOW OFF</u></b>",
-                "<b><u>THEN, NOW</u></b> and <b><u>FUTURE</u></b>",
-                "<b><u>JOURNEY</u></b>",
-                "<b><u>LIFE</u></b>^2000 <i>and it's now or never...</i>",
+                "<b><u>LEARNING PROJECT</u></b>",
+                "<b><u>PUBLIC CV</u></b>",
               ]}
               typeSpeed={100}
               backSpeed={50}

@@ -34,7 +34,7 @@ export default function WorkAndEducation() {
               <h4>Master&apos;s Thesis Worker</h4>
               <p>
                 <span className="font-bold">Subject</span>: Desing and
-                implementation of a web-base data transfer module in MicroSCADA
+                Implementation of a Web-Based Data Transfer Module in MicroSCADA
                 X DMS600
               </p>
             </div>
@@ -64,7 +64,7 @@ export default function WorkAndEducation() {
               <h3 className="font-bold">
                 Hitachi Energy{" "}
                 <span className="font-normal">
-                  (prev. ABB Oy, ABB Power Grids Finland)
+                  (prev. ABB Oy, ABB Power Grids Finland Oy)
                 </span>
               </h3>
               <h4>Engineering Trainee</h4>
@@ -93,10 +93,10 @@ export default function WorkAndEducation() {
               <h4>Bachelor&apos;s Degree</h4>
               <p>
                 <span className="font-bold">Bachelor&apos;s thesis</span>: Next
-                generation AMR requirements and opportunities
+                Generation AMR Requirements and Opportunities
               </p>
               <p style={{ marginTop: "0px" }}>
-                <span className="font-bold">Major</span>: Power electronicsand
+                <span className="font-bold">Major</span>: Power electronics and
                 electromechanics
               </p>
               <p style={{ marginTop: "0px" }}>
