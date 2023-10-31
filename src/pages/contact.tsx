@@ -7,15 +7,17 @@ export default function Contact() {
         <title>{`Contact : <>{ V.S }</>`}</title>
       </Head>
       <div className="container flex h-full w-full flex-col justify-center p-4 text-center text-zinc-300">
-        <h1 className="mb-2 text-2xl font-bold underline lg:text-3xl">
-          Contact me by
+        <h1 className="m-4 text-center font-overpass text-3xl font-bold text-zinc-300 sm:m-6 sm:text-6xl">
+          Contact me
         </h1>
         <p className="mx-6 mb-5 max-lg:text-sm lg:mb-10">
           You can contact me any time, whatever the cause might be
         </p>
         <div className="flex h-full w-full flex-wrap justify-center">
           <div className="mx-5 mb-4 basis-1/4">
-            <h2 className="text-lg font-bold lg:text-2xl">Telegram</h2>
+            <h2 className="font-overpass text-lg font-bold lg:text-2xl">
+              Telegram
+            </h2>
             <a
               href="https://t.me/vikidi"
               target="_blank"
@@ -26,7 +28,9 @@ export default function Contact() {
             </a>
           </div>
           <div className="mx-5 basis-1/4">
-            <h2 className="text-lg font-bold lg:text-2xl">Email</h2>
+            <h2 className="font-overpass text-lg font-bold lg:text-2xl">
+              Email
+            </h2>
             <a
               href="mailto:ville.saarinen9@gmail.com"
               target="_blank"

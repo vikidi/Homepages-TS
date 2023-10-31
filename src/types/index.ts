@@ -25,8 +25,8 @@ export interface ProjectPreviewProps {
   techStack: string[];
   image: StaticImageData;
   desc: string[];
-  sourceUrl?: string;
-  sourceUrlShort?: string;
+  sourceUrls?: string[];
+  sourceUrlShorts?: string[];
   deploymentUrl?: string;
   deploymentUrlShort?: string;
 }

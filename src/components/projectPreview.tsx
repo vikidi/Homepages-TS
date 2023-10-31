@@ -15,7 +15,7 @@ export default function ProjectPreview(props: ProjectPreviewProps) {
             priority
           />
         </div>
-        <h2 className="pt-2 text-lg font-bold underline sm:text-xl md:text-2xl">
+        <h2 className="pt-2 font-overpass text-lg font-bold sm:text-xl md:text-2xl">
           {props.name}
         </h2>
         <h3 className="mx-6 pb-2 text-sm">{props.secondaryTitle}</h3>
@@ -51,16 +51,24 @@ export default function ProjectPreview(props: ProjectPreviewProps) {
             </h5>
           ))}
         </div>
-        {props.sourceUrl ? (
-          <a
-            href={props.sourceUrl}
-            target="_blank"
-            rel="noreferrer noopener"
-            className="pb-2 text-sm text-blue-600 underline decoration-transparent transition duration-300 ease-in-out visited:text-purple-600 hover:text-blue-800 hover:decoration-inherit"
-          >
-            {props.sourceUrlShort}
-          </a>
-        ) : null}
+        <div className="pb-2">
+          {props.sourceUrls && props.sourceUrlShorts
+            ? props.sourceUrls.map((url: string, i: number) => {
+                return (
+                  <div key={url}>
+                    <a
+                      href={url}
+                      target="_blank"
+                      rel="noreferrer noopener"
+                      className="text-sm text-blue-600 underline decoration-transparent transition duration-300 ease-in-out visited:text-purple-600 hover:text-blue-800 hover:decoration-inherit"
+                    >
+                      {props.sourceUrlShorts?.at(i) ?? "Source"}
+                    </a>
+                  </div>
+                );
+              })
+            : null}
+        </div>
       </div>
     </div>
   );

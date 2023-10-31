@@ -33,19 +33,15 @@ export default function Home() {
             This is my
           </p>
           <h2
-            className="text-md text-center text-zinc-300 md:text-xl"
+            className="text-md text-center font-overpass text-zinc-300 md:text-xl"
             style={{ whiteSpace: "normal" }}
           >
             <Typer
               strings={[
-                "<b><u>HOMEPAGE</u></b>",
+                "<b><u>HOME PAGE</u></b>",
                 "<b><u>PORTFOLIO</u></b>",
-                "<b><u>RANDOM PROJECT</u></b>",
-                "<b><u>LEARNING OPPORTUNITY</u></b>",
-                "<b><u>SHOW OFF</u></b>",
-                "<b><u>THEN, NOW</u></b> and <b><u>FUTURE</u></b>",
-                "<b><u>JOURNEY</u></b>",
-                "<b><u>LIFE</u></b>^2000 <i>and it's now or never...</i>",
+                "<b><u>LEARNING PROJECT</u></b>",
+                "<b><u>PUBLIC CV</u></b>",
               ]}
               typeSpeed={100}
               backSpeed={50}
