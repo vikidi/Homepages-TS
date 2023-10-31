@@ -16,7 +16,7 @@ export default function WorkAndEducation() {
         <title>{`Work & Education : <>{ V.S }</>`}</title>
       </Head>
       <div className="container flex h-full w-full flex-col justify-center p-4 ">
-        <h1 className="m-5 text-center text-2xl font-bold text-zinc-300 sm:m-10 sm:text-3xl">
+        <h1 className="m-5 text-center font-overpass text-3xl font-bold text-zinc-300 sm:m-10 sm:text-5xl">
           Work & Education
         </h1>
         <VerticalTimeline

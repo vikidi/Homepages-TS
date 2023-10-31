@@ -15,7 +15,7 @@ export default function ProjectPreview(props: ProjectPreviewProps) {
             priority
           />
         </div>
-        <h2 className="pt-2 text-lg font-bold underline sm:text-xl md:text-2xl">
+        <h2 className="pt-2 font-overpass text-lg font-bold sm:text-xl md:text-2xl">
           {props.name}
         </h2>
         <h3 className="mx-6 pb-2 text-sm">{props.secondaryTitle}</h3>

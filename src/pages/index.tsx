@@ -33,7 +33,7 @@ export default function Home() {
             This is my
           </p>
           <h2
-            className="text-md text-center text-zinc-300 md:text-xl"
+            className="text-md text-center font-overpass text-zinc-300 md:text-xl"
             style={{ whiteSpace: "normal" }}
           >
             <Typer

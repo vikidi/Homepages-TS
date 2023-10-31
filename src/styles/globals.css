@@ -27,6 +27,7 @@ body {
 }
 
 body,
+#content,
 #__next {
   display: flex;
   flex-direction: column;
