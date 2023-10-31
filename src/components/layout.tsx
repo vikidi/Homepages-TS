@@ -11,7 +11,7 @@ const openSans = Open_Sans({
   variable: "--font-opensans",
 });
 
-const Overpass = localFont({
+const overpass = localFont({
   src: "../fonts/overpass-extrabold.otf",
   variable: "--font-overpass",
 });
@@ -20,7 +20,7 @@ export default function Layout({ children }: Children) {
   return (
     <div
       id="content"
-      className={`${openSans.variable} ${Overpass.variable} font-sans`}
+      className={`${openSans.variable} ${overpass.variable} font-sans`}
     >
       <Navbar />
       <main
