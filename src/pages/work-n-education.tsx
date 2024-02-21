@@ -24,7 +24,33 @@ export default function WorkAndEducation() {
           animate={breakpoint >= 1170}
         >
           <VerticalTimelineElement
-            date="2022 - present"
+            date="12 / 2023 - present"
+            iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
+            icon={<WorkIcon />}
+            dateClassName="min-[1170px]:text-zinc-300 text-black"
+          >
+            <div className="text-black">
+              <h3 className="font-bold">
+                CoE Group{" "}
+                <span className="font-normal">
+                  (contractor @ Hitachi Energy)
+                </span>
+              </h3>
+              <h4>Software Engineer</h4>
+              <p>
+                Working with MicroSCADA X DMS600 electricity distribution
+                management system. Work contains design, implementation and
+                testing of Windows applications (mainly desktop) using
+                C#/.NET/WPF/MsTest, some coding of the main product with C++,
+                and a lot of everything database-related (MS SQL). Additionally
+                I&apos;m creating smaller scripts using
+                Batch/PowerShell/Python/VBA. Mostly software engineering tasks,
+                but also project engineering and service.
+              </p>
+            </div>
+          </VerticalTimelineElement>
+          <VerticalTimelineElement
+            date="6 / 2022 - 12 / 2023"
             iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
             icon={<WorkIcon />}
             dateClassName="min-[1170px]:text-zinc-300 text-black"
@@ -40,7 +66,7 @@ export default function WorkAndEducation() {
             </div>
           </VerticalTimelineElement>
           <VerticalTimelineElement
-            date="2021 - present"
+            date="5 / 2021 - present"
             iconStyle={{ background: "rgb(233, 30, 99)", color: "#fff" }}
             icon={<SchoolIcon />}
             dateClassName="min-[1170px]:text-zinc-300 text-black"
@@ -49,13 +75,18 @@ export default function WorkAndEducation() {
               <h3 className="font-bold">Tampere University</h3>
               <h4>Master&apos;s Degree</h4>
               <p>
+                <span className="font-bold">Master&apos;s thesis</span>: Desing
+                and Implementation of a Web-Based Data Transfer Module in
+                MicroSCADA X DMS600
+              </p>
+              <p>
                 <span className="font-bold">Major</span>: Software Engineering
                 (long)
               </p>
             </div>
           </VerticalTimelineElement>
           <VerticalTimelineElement
-            date="2019 - present"
+            date="5 / 2019 - 12 / 2023"
             iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
             icon={<WorkIcon />}
             dateClassName="min-[1170px]:text-zinc-300 text-black"
@@ -69,16 +100,14 @@ export default function WorkAndEducation() {
               </h3>
               <h4>Engineering Trainee</h4>
               <p>
-                Summer-/part-time job. Work contains design and implementation
-                of Windows applications (mainly desktop) using C#/.NET/WPF, some
-                coding of the main product with C++, and a lot of everything
-                database-related (MSSQL). Mostly software engineering tasks, but
-                also support in project engineering and service.
+                Worked with MicroSCADA X DMS600 electricity distribution
+                management system. Part-time job (full-time at summers).
+                Basically same work description as above in CoE Group position.
               </p>
             </div>
           </VerticalTimelineElement>
           <VerticalTimelineElement
-            date="2016 - 2021"
+            date="8 / 2016 - 5 / 2021"
             iconStyle={{ background: "rgb(233, 30, 99)", color: "#fff" }}
             icon={<SchoolIcon />}
             dateClassName="min-[1170px]:text-zinc-300 text-black"
@@ -105,7 +134,7 @@ export default function WorkAndEducation() {
             </div>
           </VerticalTimelineElement>
           <VerticalTimelineElement
-            date="2016 - 2018"
+            date="4 / 2016 - 8 / 2018"
             iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
             icon={<WorkIcon />}
             dateClassName="min-[1170px]:text-zinc-300 text-black"
@@ -117,7 +146,7 @@ export default function WorkAndEducation() {
             </div>
           </VerticalTimelineElement>
           <VerticalTimelineElement
-            date="2015 - 2016"
+            date="7 / 2015 - 3 / 2016"
             iconStyle={{ background: "rgb(233, 30, 99)", color: "#fff" }}
             icon={<SchoolIcon />}
             dateClassName="min-[1170px]:text-zinc-300 text-black"
@@ -129,7 +158,7 @@ export default function WorkAndEducation() {
             </div>
           </VerticalTimelineElement>
           <VerticalTimelineElement
-            date="2015"
+            date="6 / 2015 - 7 / 2015"
             iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
             icon={<WorkIcon />}
             dateClassName="min-[1170px]:text-zinc-300 text-black"
@@ -143,7 +172,7 @@ export default function WorkAndEducation() {
             </div>
           </VerticalTimelineElement>
           <VerticalTimelineElement
-            date="2012 - 2015"
+            date="8 / 2012 - 6 / 2015"
             iconStyle={{ background: "rgb(233, 30, 99)", color: "#fff" }}
             icon={<SchoolIcon />}
             dateClassName="min-[1170px]:text-zinc-300 text-black"
