@@ -40,12 +40,32 @@ export default function WorkAndEducation() {
               <p>
                 Working with MicroSCADA X DMS600 electricity distribution
                 management system. Work contains design, implementation and
-                testing of Windows applications (mainly desktop) using
-                C#/.NET/WPF/MsTest, some coding of the main product with C++,
-                and a lot of everything database-related (MS SQL). Additionally
-                I&apos;m creating smaller scripts using
-                Batch/PowerShell/Python/VBA. Mostly software engineering tasks,
-                but also project engineering and service.
+                testing of Windows-based applications using C#/.NET/WPF/MsTest,
+                some coding of the main product with C++, and a lot of
+                everything database-related (MS SQL). Additionally I&apos;m
+                creating smaller scripts using Batch/PowerShell/Python/VBA.
+                Mostly software engineering tasks, but also project engineering
+                and service.
+              </p>
+            </div>
+          </VerticalTimelineElement>
+          <VerticalTimelineElement
+            date="5 / 2021 - 4 / 2024"
+            iconStyle={{ background: "rgb(233, 30, 99)", color: "#fff" }}
+            icon={<SchoolIcon />}
+            dateClassName="min-[1170px]:text-zinc-300 text-black"
+          >
+            <div className="text-black">
+              <h3 className="font-bold">Tampere University</h3>
+              <h4>Master&apos;s Degree</h4>
+              <p>
+                <span className="font-bold">Master&apos;s thesis</span>: Design
+                and Implementation of a Web-Based Data Transfer Module in
+                MicroSCADA X DMS600
+              </p>
+              <p>
+                <span className="font-bold">Major</span>: Software Engineering
+                (long)
               </p>
             </div>
           </VerticalTimelineElement>
@@ -59,29 +79,9 @@ export default function WorkAndEducation() {
               <h3 className="font-bold">Hitachi Energy</h3>
               <h4>Master&apos;s Thesis Worker</h4>
               <p>
-                <span className="font-bold">Subject</span>: Desing and
+                <span className="font-bold">Subject</span>: Design and
                 Implementation of a Web-Based Data Transfer Module in MicroSCADA
                 X DMS600
-              </p>
-            </div>
-          </VerticalTimelineElement>
-          <VerticalTimelineElement
-            date="5 / 2021 - present"
-            iconStyle={{ background: "rgb(233, 30, 99)", color: "#fff" }}
-            icon={<SchoolIcon />}
-            dateClassName="min-[1170px]:text-zinc-300 text-black"
-          >
-            <div className="text-black">
-              <h3 className="font-bold">Tampere University</h3>
-              <h4>Master&apos;s Degree</h4>
-              <p>
-                <span className="font-bold">Master&apos;s thesis</span>: Desing
-                and Implementation of a Web-Based Data Transfer Module in
-                MicroSCADA X DMS600
-              </p>
-              <p>
-                <span className="font-bold">Major</span>: Software Engineering
-                (long)
               </p>
             </div>
           </VerticalTimelineElement>
@@ -101,8 +101,8 @@ export default function WorkAndEducation() {
               <h4>Engineering Trainee</h4>
               <p>
                 Worked with MicroSCADA X DMS600 electricity distribution
-                management system. Part-time job (full-time at summers).
-                Basically same work description as above in CoE Group position.
+                management system. Part-time job (full-time at summers). Same
+                work description as above in CoE Group position.
               </p>
             </div>
           </VerticalTimelineElement>
@@ -113,23 +113,18 @@ export default function WorkAndEducation() {
             dateClassName="min-[1170px]:text-zinc-300 text-black"
           >
             <div className="text-black">
-              <h3 className="font-bold">
-                Tampere University{" "}
-                <span className="font-normal">
-                  (prev. Tampere University of Technology)
-                </span>
-              </h3>
+              <h3 className="font-bold">Tampere University</h3>
               <h4>Bachelor&apos;s Degree</h4>
               <p>
                 <span className="font-bold">Bachelor&apos;s thesis</span>: Next
                 Generation AMR Requirements and Opportunities
               </p>
               <p style={{ marginTop: "0px" }}>
-                <span className="font-bold">Major</span>: Power electronics and
-                electromechanics
+                <span className="font-bold">Major</span>: Power Electronics and
+                Electromechanics
               </p>
               <p style={{ marginTop: "0px" }}>
-                <span className="font-bold">Minor</span>: Software systems
+                <span className="font-bold">Minor</span>: Software Engineering
               </p>
             </div>
           </VerticalTimelineElement>
@@ -142,7 +137,10 @@ export default function WorkAndEducation() {
             <div className="text-black">
               <h3 className="font-bold">Puuilo Oy</h3>
               <h4>Retail Sales, Warehouse Work</h4>
-              <p>Summer job as all-around worker in Raisio Puuilo.</p>
+              <p>
+                Summer job (three summers) as all-around worker in Raisio
+                Puuilo.
+              </p>
             </div>
           </VerticalTimelineElement>
           <VerticalTimelineElement

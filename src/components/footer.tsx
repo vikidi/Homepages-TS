@@ -5,7 +5,7 @@ export default function Footer() {
         <a
           href="https://www.instagram.com/vikidii"
           target="_blank"
-          className="px-4 py-2 text-zinc-300 hover:text-zinc-400"
+          className="px-4 py-2 text-zinc-300 hover:text-green-300"
           aria-label="Personal Instagram"
         >
           <svg
@@ -19,7 +19,7 @@ export default function Footer() {
         <a
           href="https://www.github.com/vikidi"
           target="_blank"
-          className="px-4 py-2 text-zinc-300 hover:text-zinc-400"
+          className="px-4 py-2 text-zinc-300 hover:text-green-300"
           aria-label="Personal Github"
         >
           <svg
@@ -33,7 +33,7 @@ export default function Footer() {
         <a
           href="https://www.gitlab.com/vikidii"
           target="_blank"
-          className="px-4 py-2 text-zinc-300 hover:text-zinc-400"
+          className="px-4 py-2 text-zinc-300 hover:text-green-300"
           aria-label="Personal Gitlab"
         >
           <svg
@@ -47,7 +47,7 @@ export default function Footer() {
         <a
           href="https://www.linkedin.com/in/ville-saarinen/"
           target="_blank"
-          className="px-4 py-2 text-zinc-300 hover:text-zinc-400"
+          className="px-4 py-2 text-zinc-300 hover:text-green-300"
           aria-label="Personal Linkedin"
         >
           <svg

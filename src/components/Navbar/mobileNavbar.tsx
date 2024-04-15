@@ -6,11 +6,11 @@ export default function MobileNavbar({
   links,
   navOpen,
   setNavOpen,
-}: {
+}: Readonly<{
   links: NavLinks;
   navOpen: boolean;
   setNavOpen: Function;
-}) {
+}>) {
   const genericHamburgerLine =
     "h-1 w-6 rounded-full bg-zinc-300 transition ease transform duration-300";
 
