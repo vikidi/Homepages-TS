@@ -33,7 +33,7 @@ export default function WorkAndEducation() {
               <h3 className="font-bold">
                 CoE Group{" "}
                 <span className="font-normal">
-                  (contractor @ Hitachi Energy)
+                  (consultant @ Hitachi Energy)
                 </span>
               </h3>
               <h4>Software Engineer</h4>
