@@ -16,7 +16,7 @@ const overpass = localFont({
   variable: "--font-overpass",
 });
 
-export default function Layout({ children }: Children) {
+export default function Layout({ children }: Readonly<Children>) {
   return (
     <div
       id="content"

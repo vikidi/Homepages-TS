@@ -1,7 +1,7 @@
 import { ProjectPreviewProps } from "@/types";
 import Image from "next/image";
 
-export default function ProjectPreview(props: ProjectPreviewProps) {
+export default function ProjectPreview(props: Readonly<ProjectPreviewProps>) {
   return (
     <div className="p-4 md:px-8 md:py-6 2xl:px-12">
       <div className="flex flex-col rounded-lg border-[1px] border-green-300/70 text-zinc-300">

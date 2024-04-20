@@ -46,16 +46,13 @@ export default function MobileNavbar({
       <div
         style={{
           transition: "all 0.25s ease-in-out",
-          width: !navOpen ? "0" : "100%",
-          height: !navOpen ? "0" : "100%",
+          visibility: navOpen ? "visible" : "collapse",
+          width: navOpen ? "100%" : "0%",
           alignSelf: "self-end",
         }}
-        className="flex transform justify-end transition"
+        className="flex h-full"
       >
-        <div
-          className="w-1/5 backdrop-blur-[2px] sm:w-2/5"
-          onClick={() => setNavOpen(false)}
-        ></div>
+        <div className="w-1/5 backdrop-blur-[2px] sm:w-2/5"></div>
         <ul className="flex w-4/5 flex-col justify-start bg-slate-800/80 shadow-md backdrop-blur-md sm:w-3/5">
           {links.map((link: NavLink) => (
             <li
