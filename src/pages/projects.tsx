@@ -1,10 +1,10 @@
 import Head from "next/head";
-import HomepagePic from "public/homepage.png";
-import NmksvPic from "public/nmksv-page.png";
-import EsiskuPic from "public/esisku-page.png";
-import OpenhabPic from "public/openhab.png";
-import ClimateMeterPic from "public/climatemeter.jpg";
-import SportsPic from "public/sports-page.png";
+import HomepagePic from "../../public/homepage.png";
+import NmksvPic from "../../public/nmksv-page.png";
+import EsiskuPic from "../../public/esisku-page.png";
+import OpenhabPic from "../../public/openhab.png";
+import ClimateMeterPic from "../../public/climatemeter.jpg";
+import SportsPic from "../../public/sports-page.png";
 import ProjectPreview from "@/components/projectPreview";
 
 export default function Projects() {
