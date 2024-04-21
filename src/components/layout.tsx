@@ -24,7 +24,7 @@ export default function Layout({ children }: Readonly<Children>) {
     >
       <Navbar />
       <main
-        className={`mt-[60px] flex flex-auto items-center justify-center bg-gray-900`}
+        className={`mt-[61px] flex flex-auto items-center justify-center bg-gray-900`}
       >
         {children}
       </main>
