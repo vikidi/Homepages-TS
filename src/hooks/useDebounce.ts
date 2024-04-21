@@ -1,5 +1,5 @@
 export const useDebounce = (func: Function, milliseconds?: number) => {
-  const time = milliseconds || 400;
+  const time = milliseconds ?? 400;
   let timer: number;
 
   return (event: UIEvent) => {

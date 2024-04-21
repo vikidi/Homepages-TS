@@ -79,7 +79,7 @@ export default function Projects() {
               "MongoDB",
             ]}
             desc={[
-              "I enjoyed Strava's matched runs functionality, but didn't want to pay for it so I decided to create it using Polar's API. This project consists of frontend and backend, and maybe in future also mobile.",
+              "I enjoy running, and I wanted to compare my runs and see my progress within them. I measure my runs with Polar equipment so I get the data by using Polar's API. This project consists of frontend and backend, and maybe in future also mobile.",
               "The backend is used to firstly load data using Polar API via webhook to MongoDB database. The data can then be interacted with using my backend REST API. I chose MongoDB because I like it. NodeJS I chose for familiarity and simplicity.",
               "The frontend is made with Angular and Sass. I enjoy Javascript so I wanted to expand my knowledge within it's frameworks. Angular works well with Sass so I wanted to learn it at the same time.",
               "This project is under development!",

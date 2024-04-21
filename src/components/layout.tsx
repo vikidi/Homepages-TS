@@ -16,7 +16,7 @@ const overpass = localFont({
   variable: "--font-overpass",
 });
 
-export default function Layout({ children }: Children) {
+export default function Layout({ children }: Readonly<Children>) {
   return (
     <div
       id="content"
@@ -24,7 +24,7 @@ export default function Layout({ children }: Children) {
     >
       <Navbar />
       <main
-        className={`mt-[60px] flex flex-auto items-center justify-center bg-gray-900`}
+        className={`mt-[61px] flex flex-auto items-center justify-center bg-gray-900`}
       >
         {children}
       </main>

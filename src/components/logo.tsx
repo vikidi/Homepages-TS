@@ -4,7 +4,7 @@ export function Logo({
   padding = "p-10",
   borderColor = "border-white",
   border = true,
-}: LogoProps) {
+}: Readonly<LogoProps>) {
   const borderClass = border ? "border-[1px]" : "";
   const divClassNames = `flex flex-nowrap ${borderClass} ${padding} ${borderColor}`;
 
@@ -21,7 +21,7 @@ export function FullLogo({
   padding = "p-10",
   borderColor = "border-white",
   border = true,
-}: LogoProps) {
+}: Readonly<LogoProps>) {
   const borderClass = border ? "border-[1px]" : "";
   const divClassNames = `flex flex-col ${borderClass} ${padding} ${borderColor}`;
 
