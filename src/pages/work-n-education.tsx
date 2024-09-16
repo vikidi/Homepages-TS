@@ -1,6 +1,7 @@
 import { WorkIcon, SchoolIcon, StarIcon } from "@/Icons";
 import { useBreakpoint } from "@/hooks";
 import Head from "next/head";
+import Link from "next/link";
 import {
   VerticalTimeline,
   VerticalTimelineElement,
@@ -38,14 +39,14 @@ export default function WorkAndEducation() {
               </h3>
               <h4>Software Engineer</h4>
               <p>
-                Working with MicroSCADA X DMS600 electricity distribution
-                management system. Work contains design, implementation and
-                testing of Windows-based applications using C#/.NET/WPF/MsTest,
-                some coding of the main product with C++, and a lot of
-                everything database-related (MS SQL). Additionally I&apos;m
-                creating smaller scripts using Batch/PowerShell/Python/VBA.
-                Mostly software engineering tasks, but also project engineering
-                and service.
+                Working with the MicroSCADA X DMS600 power grid operation
+                management system. Software planning, implementation, testing
+                and delivery to clients in a Windows/.NET environment. Projects
+                are often data interfaces or auxiliary software that processes
+                data internally. The interfaces are mainly implemented in C#
+                with REST or SOAP protocol. SQL database handling is a central
+                part in data applications. We also work a lot with customers
+                when delivering new systems or maintaining existing ones.
               </p>
             </div>
           </VerticalTimelineElement>
@@ -61,7 +62,26 @@ export default function WorkAndEducation() {
               <p>
                 <span className="font-bold">Master&apos;s thesis</span>: Design
                 and Implementation of a Web-Based Data Transfer Module in
-                MicroSCADA X DMS600
+                MicroSCADA X DMS600 (
+                <Link
+                  href="https://urn.fi/URN:NBN:fi:tuni-202401261853"
+                  target="_blank"
+                  rel="noreferrer noopener"
+                  className="text-sm text-blue-600 underline decoration-transparent transition duration-300 ease-in-out visited:text-purple-600 hover:text-blue-800 hover:decoration-inherit lg:text-lg"
+                >
+                  Trepo
+                </Link>{" "}
+                /{" "}
+                <Link
+                  href="SaarinenVille_dippa.pdf"
+                  target="_blank"
+                  rel="noreferrer noopener"
+                  locale={false}
+                  className="text-sm text-blue-600 underline decoration-transparent transition duration-300 ease-in-out visited:text-purple-600 hover:text-blue-800 hover:decoration-inherit lg:text-lg"
+                >
+                  PDF
+                </Link>
+                )
               </p>
               <p>
                 <span className="font-bold">Major</span>: Software Engineering
@@ -81,7 +101,33 @@ export default function WorkAndEducation() {
               <p>
                 <span className="font-bold">Subject</span>: Design and
                 Implementation of a Web-Based Data Transfer Module in MicroSCADA
-                X DMS600
+                X DMS600 (
+                <Link
+                  href="https://urn.fi/URN:NBN:fi:tuni-202401261853"
+                  target="_blank"
+                  rel="noreferrer noopener"
+                  className="text-sm text-blue-600 underline decoration-transparent transition duration-300 ease-in-out visited:text-purple-600 hover:text-blue-800 hover:decoration-inherit lg:text-lg"
+                >
+                  Trepo
+                </Link>{" "}
+                /{" "}
+                <Link
+                  href="SaarinenVille_dippa.pdf"
+                  target="_blank"
+                  rel="noreferrer noopener"
+                  locale={false}
+                  className="text-sm text-blue-600 underline decoration-transparent transition duration-300 ease-in-out visited:text-purple-600 hover:text-blue-800 hover:decoration-inherit lg:text-lg"
+                >
+                  PDF
+                </Link>
+                )
+              </p>
+              <p>
+                This project aimed to create a REST interface that sends data to
+                Traficom&#39;s network information point system for
+                co-construction activities. The implementation mainly included
+                the research of technologies, software design, coding and
+                testing, and evaluation of the final result.
               </p>
             </div>
           </VerticalTimelineElement>
@@ -117,7 +163,26 @@ export default function WorkAndEducation() {
               <h4>Bachelor&apos;s Degree</h4>
               <p>
                 <span className="font-bold">Bachelor&apos;s thesis</span>: Next
-                Generation AMR Requirements and Opportunities
+                Generation AMR Requirements and Opportunities (
+                <Link
+                  href="https://urn.fi/URN:NBN:fi:tuni-202105215303"
+                  target="_blank"
+                  rel="noreferrer noopener"
+                  className="text-sm text-blue-600 underline decoration-transparent transition duration-300 ease-in-out visited:text-purple-600 hover:text-blue-800 hover:decoration-inherit lg:text-lg"
+                >
+                  Trepo
+                </Link>{" "}
+                /{" "}
+                <Link
+                  href="SaarinenVille_kandi.pdf"
+                  target="_blank"
+                  rel="noreferrer noopener"
+                  locale={false}
+                  className="text-sm text-blue-600 underline decoration-transparent transition duration-300 ease-in-out visited:text-purple-600 hover:text-blue-800 hover:decoration-inherit lg:text-lg"
+                >
+                  PDF
+                </Link>
+                )
               </p>
               <p style={{ marginTop: "0px" }}>
                 <span className="font-bold">Major</span>: Power Electronics and
